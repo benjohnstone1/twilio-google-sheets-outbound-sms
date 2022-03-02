@@ -30,7 +30,7 @@ A Google Apps account, so you can create a Google Sheet.
 
 5. Back in your sheet populate the "From" field with a Twilio-owned number in your account, "To" field with where you want to send the message and the "Body" with your desired message
 
-6. Hit "Send with Twilio"!
+6. Hit "Send with Twilio" This will then loop through each row in your sheet and if it's non empty will call the Twilio API and send the message using the paramaters provided.
 
 ![Send_with_Twilio](https://user-images.githubusercontent.com/7649418/156449125-4025b0a7-2795-42a6-a4b9-8d055f846e6a.png)
 
