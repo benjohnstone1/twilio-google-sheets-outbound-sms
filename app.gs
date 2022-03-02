@@ -10,7 +10,7 @@ function sendWithTwilio() {
   var TWILIO_ACCOUNT_SID = PropertiesService.getScriptProperties().getProperty('TWILIO_ACCOUNT_SID');
   var TWILIO_AUTH_TOKEN = PropertiesService.getScriptProperties().getProperty('TWILIO_AUTH_TOKEN');
 
-  var ss = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Outbound');
+  var ss = SpreadsheetApp.getActiveSpreadsheet()
 
   var fromNumberList = ss.getRange("A2:A").getValues();
   var toNumberList = ss.getRange("B2:B").getValues();
