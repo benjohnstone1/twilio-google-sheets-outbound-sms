@@ -28,7 +28,7 @@ A Google Apps account, so you can create a Google Sheet.
 ![Screen Shot 2022-03-02 at 2 21 32 PM](https://user-images.githubusercontent.com/7649418/156451784-d93ae78a-1574-44df-8437-188f90f2dc24.png)
 
 
-5. Populate "From" field with a Twilio-owned number in your account, "To" field with where you want to send the message and the "Body" with your desired message
+5. Back in your sheet populate the "From" field with a Twilio-owned number in your account, "To" field with where you want to send the message and the "Body" with your desired message
 
 6. Hit "Send with Twilio"!
 
