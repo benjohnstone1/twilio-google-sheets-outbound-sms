@@ -21,14 +21,16 @@ A Google Apps account, so you can create a Google Sheet.
 
 4. You now have a new script called app.gs on the left side menu. Click on app.gs if you are not automatically brought into that file.
 
-5. Copy the code [here](https://github.com/benjohnstone1/twilio-google-sheets-outbound-sms/edit/main/README.md) and past it into your app.gs file and save your app.gs file.
+5. Copy the code [here](https://github.com/benjohnstone1/twilio-google-sheets-outbound-sms/blob/main/app.gs) and past it into your app.gs file and save your app.gs file.
 
 6. Add Account SID and Auth Token using [Properties Service](https://developers.google.com/apps-script/guides/properties)
    - Back on the browser tab where you've been writing your code click the "File" menu, then "Project properties", then click the "Script properties" tab in the window that pops up. This is where you will need your Twilio Account SID, Auth Token, and phone number. Plus you will be setting several other properties. Using the image below as your guide. Add the same exact properties you see in the image. Replace the blurred out parts with your specific information.
 
 7. Populate "From" field with a Twilio-owned number in your account, "To" field with where you want to send the message to and the "Body" with your message
 
-9. Hit "Send with Twilio"!
+8. Hit "Send with Twilio"!
+
+![Send_with_Twilio](https://user-images.githubusercontent.com/7649418/156449125-4025b0a7-2795-42a6-a4b9-8d055f846e6a.png)
 
 
 
